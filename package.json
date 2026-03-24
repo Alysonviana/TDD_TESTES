@@ -1,0 +1,60 @@
+{
+  "name": "tdd-testes",
+  "version": "1.0.0",
+  "description": "Aula prática de testes unitários com Vitest e TDD",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "@vitest/ui": "^4.0.18",
+    "vitest": "^4.0.18"
+  },
+  "main": "vitest.config.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "assertion-error": "^2.0.1",
+    "chai": "^6.2.2",
+    "convert-source-map": "^2.0.0",
+    "detect-libc": "^2.1.2",
+    "es-module-lexer": "^2.0.0",
+    "estree-walker": "^3.0.3",
+    "expect-type": "^1.3.0",
+    "fdir": "^6.5.0",
+    "lightningcss": "^1.32.0",
+    "lightningcss-win32-x64-msvc": "^1.32.0",
+    "magic-string": "^0.30.21",
+    "nanoid": "^3.3.11",
+    "obug": "^2.1.1",
+    "pathe": "^2.0.3",
+    "picocolors": "^1.1.1",
+    "picomatch": "^4.0.4",
+    "postcss": "^8.5.8",
+    "rolldown": "^1.0.0-rc.11",
+    "siginfo": "^2.0.0",
+    "source-map-js": "^1.2.1",
+    "stackback": "^0.0.2",
+    "std-env": "^4.0.0",
+    "tinybench": "^2.9.0",
+    "tinyexec": "^1.0.4",
+    "tinyglobby": "^0.2.15",
+    "tinyrainbow": "^3.1.0",
+    "vite": "^8.0.2",
+    "why-is-node-running": "^2.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alysonviana/TDD_TESTES.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alysonviana/TDD_TESTES/issues"
+  },
+  "homepage": "https://github.com/Alysonviana/TDD_TESTES#readme"
+}
