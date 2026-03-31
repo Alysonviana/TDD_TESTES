@@ -9,7 +9,7 @@
     "coverage": "vitest run --coverage"
   },
   "devDependencies": {
-    "@vitest/ui": "^4.0.18",
+    "@vitest/ui": "^4.1.2",
     "vitest": "^4.0.18"
   },
   "main": "vitest.config.js",
